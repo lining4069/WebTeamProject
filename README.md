@@ -1,2 +1,1 @@
-# WebTeamProject
-Web大作业
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿# WebTeamProject  Web大作业   团队成员：张益龙 王冰 李源琪 郑鑫 曲志郅 李宁    *一、创建了连master一起的总共8的分支*    具体的分支：         依据每个人的名字来进行的命名。        张益龙    brabchforZYL        王冰   brabchforWB        李源琪   brabchforLYQ        郑鑫   brabchforZX      曲志郅 brabchforQZZ        李宁 master      所以需要每个人在自己的分支里进行提交，我直接对master分支进行操作，  到最后，我会合并所有的分支，并对所有的网页进行测试。  二、 要求：  1、每个人在进行提交代码的是都必须明确提交的分支是自己的分支，因为如果提交错误的话，  在最后合并发生冲突。无法合并。   2、格式要求：  1、每个人按照例子创建自己的网页代码文件夹。      例子：分支branchForLN里面只有一个文件夹叫做pageOfLN（LN是自己名字的缩写,以下的LN都是自己名字的缩写，大家字节替换为自己的名字缩写就可以了）  pageOfLN下有四个文件（夹）images、indexLN.html、cssLN.css、jsLN.js  2、每个人的网页的代码需要是自己独立的，图片路径要设置为相对路径，把自己需要的图片放到自己的images下
