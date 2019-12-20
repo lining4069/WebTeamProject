@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li,ol{
+    list-style: none;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+/* 头部 */
+.header-wrap{
+    height: 30px;
+    background-color: #eee9e6;
+}
+.header{
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+}
+.header p{
+    float: right;
+    color: rgb(63, 61, 61);
+    height: 30px;
+    line-height: 30px;
+}
+.header span{
+    font-size: 14px;
+    margin-right:600px;
+}
+.header a{
+    color: rgb(18, 20, 19);
+    font-size: 14px;
+    margin: 0px 14px 0;
+}
+/*搜索以及菜单*/
+.nav-box{
+    position: relative;
+}
+/*loge以及搜索框的CSS样式*/
+.box-loge{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    top: 30px;
+    left: 100px;
+}
+.box-form{
+    position: relative;
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+}
+.box-form input{
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left:100px;
+    color: rgba(166, 166, 166, 1);
+}
+.box-form button{
+    width: 100px;
+    height: 34px;
+    position: absolute;
+    top: 30px;
+    right: 98px;
+}
+.box-form div{
+    width: 400px;
+    height: 20px;
+    position:absolute;
+    top: 65px;
+    left: 100px;
+    font-size: 12px;
+}
+.box-form a{
+    color: black;
+}
+/*导航栏的CSS文件*/
+.nav-warp{
+    background-color: #06b454;
+    width: 100%;
+}
+.nav{
+    font-size: 0;
+    width: 1100px;
+    /* 使块级元素水平居中 */
+    margin: 0 auto;
+}
+.nav>li{
+    font-size: 14px;
+    display: inline-block;
+    width: 110px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: top;
+}
+.nav>li:hover{
+    background: rgba(66, 57, 192, 0.3);
+}
+/* a标签的字体颜色只能加给a标签，不会继承父元素的 */
+/* :hover也是选择器，后面可以继续写选择器，构成后代选择器 */
+.nav>li:hover >a{
+    color: rgb(92, 87, 87);
+}
+.nav>li:hover .hide{
+    display: block;
+}
+.hide{
+    background: rgba(66, 57, 192, 0.3);
+    display: none;
+}
+.hide a{
+    color: rgba(44, 44, 46, 0.8);
+}
+.hide li:hover{
+    background-color: lightblue;
+}
+
+/*实现导航下的轮播图*/
+.box-warp{
+    width: 100%;
+    height: 382px;
+    border-bottom:0.5px solid rgb(151, 132, 132);
+}
+#box{
+    width: 1200px;
+    height: 382px;
+    position: relative;
+    margin: 0 auto;
+    background-color: blue;
+    z-index: -100;
+    overflow: hidden;
+}
+#slider{
+    font-size: 0;
+    width: 8400px;
+    position: absolute;
+    left: -1200px;
+}
+#box span{
+    width: 40px;
+    height: 65px;
+    color: white;
+    background-color: red;
+    opacity: 0;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 65px;
+    cursor: pointer;
+    position: absolute;
+    top: 160px;
+}
+#left{
+    left: 40px;
+}
+#right{
+    left: 1120px;
+}
+.img{
+    float: left;
+    width: 1200px;
+}
+#box ul{
+    position: absolute;
+    left: 500px;
+    bottom: 20px;
+}
+#box li{
+    float: left;
+    background: #ccc;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    list-style-type: none;
+    text-align: center;
+}
+.li{
+    background-color: red;
+    opacity: 0.8;
+    color: white;
+}
+/*实现首页的主题部分——首页特有*/
+.body-warp{
+    width: 100%;
+    height: 800px;
+}
+.body{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*底部的共用部分*/
+.footer-bottom-wrap{
+	width: 100%;
+	height: 100px;
+	background-color: #323232;
+}
+.footer-bottom{
+	width: 1200px;
+	height: 100px;
+	position: relative;
+	margin: 0px auto;
+}
+.footer-bottom-content{
+	position: absolute;
+	left: 235px;
+	top: 25px;
+	text-align: center;
+
+}
+.footer-bottom-content a{
+	color: #fff;
+	font-size: 14px;
+	line-height: 3.429;
+}
+.footer-bottom-end{
+	font-size: 14px;
+	color: #fff;
+	position: absolute;
+	top: 70px;
+	left: 465px;
+}
