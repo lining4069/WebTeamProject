@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>星旅旅游网</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="header-wrap">
+        <div class="header">
+            <p>
+                <span>
+                    星旅旅游网欢迎您！ 你挚爱哪一个人，又热爱哪一道风景……
+                </span>
+                <a href="#">请登录</a>|
+                <a href="#">注册</a>
+            </p>
+        </div>
+    </div>
+    <!--loge和搜索以及导航栏-->
+    <div class="nav-box">
+        <img src="./images/logo.png" alt="#" class="box-loge" />
+        <form class="box-form">
+            <input type="text" name="input1" value="请输入目的地或资讯的关键字" class="text1" />
+            <button id="button1" class="button1">搜索</button>
+            <div>
+                <span>热门搜索:</span>
+                <a href="#">美食</a>
+                <a href="#">香港</a>
+                <a href="#">北京</a>
+            </div>
+        </form>
+        <!--导航栏，实现滑动显示隐藏项-->
+        <div class="nav-warp">
+            <ul class="nav">
+                <li>
+                    <a href="#">星途首页</a>
+                    <ul class="hide">
+                        <li>
+                            <a href="#">星途首页2</a>
+                        </li>
+                        <li>
+                            <a href="#">星途首页3</a>
+                        </li>
+                        <li>
+                            <a href="#">星途首页4</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">旅游百科</a>
+                    <ul class="hide">
+                        <li>
+                            <a href="#">旅游百科1</a>
+                        </li>
+                        <li>
+                            <a href="#">旅游百科2</a>
+                        </li>
+                        <li>
+                            <a href="#">旅游百科3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">旅游摄影</a>
+                    <ul class="hide">
+                        <li>
+                            <a href="#">旅游摄影1</a>
+                        </li>
+                        <li>
+                            <a href="#">旅游摄影2</a>
+                        </li>
+                        <li>
+                            <a href="#">旅游摄影3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">旅游美食</a>
+                    <ul class="hide">
+                        <li>
+                            <a href="#">旅游美食1</a>
+                        </li>
+                        <li>
+                            <a href="#">旅游美食2</a>
+                        </li>
+                        <li>
+                            <a href="#">旅游美食3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">旅游资讯</a>
+                    <ul class="hide">
+                        <li>
+                            <a href="#">旅游资讯1</a>
+                        </li>
+                        <li>
+                            <a href="#">旅游资讯2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">我的主页</a>
+                    <ul class="hide">
+                        <li>
+                            <a href="#">我的主页1</a>
+                        </li>
+                        <li>
+                            <a href="#">我的主页2</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <!--实现导航栏下的轮播图-->
+    <div class="box-warp">
+        <div id="box">
+            <div id="slider">
+                <div class="img"><img src="images/b5.png"></div>
+                <div class="img"><img src="images/b1.png"></div>
+                <div class="img"><img src="images/b2.png"></div>
+                <div class="img"><img src="images/b3.png"></div>
+                <div class="img"><img src="images/b4.png"></div>
+                <div class="img"><img src="images/b5.png"></div>
+                <div class="img"><img src="images/b1.png"></div>
+            </div>
+            <span id="left" onselectstart="return false">
+                《</span> <span id="right" onselectstart="return false">》
+            </span>
+            <ul>
+                <li class="li"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <!--主题部分-->
+    <div class="body-warp">
+        <div class="body">
+
+        </div>
+    </div>
+    <div class="footer-bottom-wrap">
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <a href="#"> 公司首页&nbsp&nbsp |</a> &nbsp
+                <a href="#"> 工商代理&nbsp&nbsp |</a> &nbsp
+                <a href="#"> 财务代记账&nbsp&nbsp |</a> &nbsp
+                <a href="#"> 股权交易与变更&nbsp&nbsp |</a> &nbsp
+                <a href="#"> 企业贷款&nbsp&nbsp |</a> &nbsp
+                <a href="#"> 办公室租赁&nbsp&nbsp |</a> &nbsp
+                <a href="#"> 社保公积金代理&nbsp&nbsp |</a>&nbsp
+                <a href="#"> 法律服务</a>
+            </div>
+            <div class="footer-bottom-end">
+                <p>©2019-2020_星途旅游有限公司_版权所有</p>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
