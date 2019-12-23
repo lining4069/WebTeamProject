@@ -199,7 +199,7 @@ a{
 /*实现首页的主题部分——首页特有*/
 .body-warp{
     width: 100%;
-    height: 800px;
+    height: 1800px;
 }
 .body{
     width: 1200px;
@@ -264,15 +264,19 @@ a{
 .c_right{
     float: right;
     width: 300px;
+    height: 1200px;
+}
+.c_right_top{
+    width: 300px;
     height: 500px;
     overflow: hidden;
+    margin-top: 20px;
 }
 .right1 p{
     width: 100%;
     height:30px;
     font-size: 18px;
     font-weight: bolder;
-
 }
 .right2{
     width:300px;
@@ -319,6 +323,40 @@ a{
     font-size: 15px;
     margin-left: 5px;
 }
+.c_right_bottom{
+    width: 300px;
+    height: 500px;
+    margin-top: 20px;
+}
+.right3 p{
+    width: 100%;
+    height:30px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.right4 ul{
+    height: 35px;
+}
+.right4 ul li{
+    display: inline;
+    text-align: center;
+    margin:10px 0px 10px 0px;
+    padding: 20px 5px 20px 5px;
+}
+.right4 ul li a{
+    line-height: 28px;
+    text-align: center;
+    margin:10px 4px 10px 4px;
+    padding: 20px 2px 20px 2px;
+}
+.right4 ul li a:hover{
+    color: lightblue;
+    text-decoration: underline;
+}
+.right4 img{
+    width: 300px;
+    height:300px;
+}
 .body-bottom-wrap{
     width: 100%;
     height: 600px;
@@ -358,7 +396,7 @@ a{
 	width: 100%;
 	height: 100px;
 	background-color: #323232;
-    margin-top: 650px;
+    margin-top: 200px;
 }
 .footer-bottom{
 	width: 1200px;
