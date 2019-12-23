@@ -75,15 +75,15 @@ body{
     height: 34px;
     position: absolute;
     top: 30px;
-    right: 98px;
+    right: 97px;
 }
 .box-form div{
-    width: 400px;
-    height: 20px;
+    width: 300px;
+    height: 25px;
     position:absolute;
-    top: 65px;
+    top: 67px;
     left: 100px;
-    font-size: 12px;
+    font-size: 13px;
 }
 .box-form a{
     color: black;
@@ -100,7 +100,7 @@ body{
     margin: 0 auto;
 }
 .nav>li{
-    font-size: 14px;
+    font-size: 15px;
     display: inline-block;
     width: 110px;
     height: 50px;
@@ -149,6 +149,7 @@ body{
     width: 8400px;
     position: absolute;
     left: -1200px;
+
 }
 #box span{
     width: 40px;
@@ -212,7 +213,6 @@ body{
 	width: 100%;
 	height: 100px;
 	background-color: #323232;
-    margin-top: 300px;
 }
 .footer-bottom{
 	width: 1200px;
@@ -240,8 +240,9 @@ body{
 	left: 465px;
     margin-top: -15px;
 }
-.body-wrap{
-    width: 1170px;
+.body-warp{
+    width: 100%;
+    height: 2250px;
     margin: 20px auto;
     overflow: hidden;
 }
@@ -366,54 +367,50 @@ li {
 a {
     text-decoration: none;
 }
-.popular,.spec{
+.popular{
     margin-left: 260px;
     width: 1520px;
     height: 600px;
     overflow: hidden;
     float: left;
 }
-.spec a.imgg{
-    float: left;
-}
-.list{
-    width: 862px;
-    float: left;
-    padding-left: 20px;
-    overflow: hidden;
-}
 .popular p{
     color: black;
 }
 .classification{
-    height: 300px;
-    margin-right: 50px;
+    height: 360px;
+    margin-top: -483px;
+    margin-right: 273px;
     float: right;
-    width: 252px;
-    border: 1px solid #eee;
+    width: 260px;
+    border: 1px solid lightgray;
     overflow: hidden;
     padding: 10px;
-    margin-top: 20px;
     padding-bottom: 0px;
 }
 .rightban{
     width: 252px;
     height: 100px;
 }
-.classification p{
+.rightban a{
     color: black;
+    margin-left: 15px;
+    float: left;
+}
+.fenlei p{
+    height: 24px;
+    width: 80px;
+    text-align: center;
+    background: #17aefd;
+    color: white;
     font-family: 微软雅黑;
-    width: 100%;
     overflow: hidden;
     float: left;
     margin-bottom: 10px;
 }
-.classification p a{
-    width: 74px;
-    float: left;
-    margin: 3px;
-}
-.spec_one li{
+.ff{
+    width: 200px;
+    height: 60px;
     float: left;
 }
 
