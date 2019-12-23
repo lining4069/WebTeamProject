@@ -238,20 +238,17 @@ body{
 	left: 465px;
     margin-top: -15px;
 }
+.body-wrap{
+    width: 1170px;
+    margin: 20px auto;
+    overflow: hidden;
+}
 .banner{
+    margin-top: 20px;
     width: 436px;
     overflow: hidden;
     float: right;
     margin-right: 50px;
-}
-ul{
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
 }
 li{
     display: list-item;
@@ -305,7 +302,6 @@ p.pop{
     border-bottom: 2px solid #ccc;
     font-weight: normal;
     line-height: 32px;
-    color: #666;
     text-align: center;
     display: block;
     width: 216px;
@@ -330,20 +326,12 @@ p{
     float: left;
     margin-top: 20px;
 }
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
 .popular ul li{
-   width: 280px;
+    width: 280px;
     overflow: hidden;
     float: left;
     margin: 0 14px 15px 0;
+    margin-top: ;
 }
 ul li, ol li {
     list-style: none;
@@ -364,6 +352,7 @@ a {
 }
 .popular,.spec{
     width: 1170px;
+    height: 600px;
     overflow: hidden;
     float: left;
 }
@@ -380,6 +369,7 @@ a {
     color: black;
 }
 .classification{
+    height: 300px;
     margin-right: 50px;
     float: right;
     width: 252px;
@@ -388,6 +378,10 @@ a {
     padding: 10px;
     margin-top: 20px;
     padding-bottom: 0px;
+}
+.rightban{
+    width: 252px;
+    height: 100px;
 }
 .classification p{
     color: black;
