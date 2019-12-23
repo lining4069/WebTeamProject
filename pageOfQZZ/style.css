@@ -13,7 +13,6 @@ a{
 }
 body{
     font-family: 微软雅黑;
-    font-size: 14px;
 }
 /* 头部 */
 .header-wrap{
@@ -29,7 +28,7 @@ body{
     float: right;
     color: rgb(63, 61, 61);
     height: 30px;
-    line-height: 30px;
+    margin-top: 5px;
 }
 .header span{
     font-size: 14px;
@@ -43,6 +42,10 @@ body{
 /*搜索以及菜单*/
 .nav-box{
     position: relative;
+}
+.nav-box img{
+    width: 80px;
+    height: 60px;
 }
 /*loge以及搜索框的CSS样式*/
 .box-loge{
@@ -131,7 +134,6 @@ body{
 .box-warp{
     width: 100%;
     height: 382px;
-    border-bottom:0.5px solid rgb(151, 132, 132);
 }
 #box{
     width: 1200px;
@@ -196,7 +198,7 @@ body{
 /*实现首页的主题部分——首页特有*/
 .body-warp{
     width: 100%;
-    height: 800px;
+    height: 3000px;
 }
 .body{
     width: 1200px;
@@ -210,7 +212,7 @@ body{
 	width: 100%;
 	height: 100px;
 	background-color: #323232;
-    margin-top: 3600px;
+    margin-top: 0px;
 }
 .footer-bottom{
 	width: 1200px;
@@ -276,6 +278,7 @@ p{
     margin-inline-end: 0px;
 }
 .banner li span{
+    font-size: 14px;
     width: 189px;
     height: 66px;
     float: left;
@@ -296,19 +299,26 @@ a span,a:hover span{
 .div{
     display: block;
 }
-p.pop{
-    font-size: 18px;
-    height: 44px;
+.pop{
+    width: 1400px;
+    height: 50px;
     border-bottom: 2px solid #ccc;
-    font-weight: normal;
-    line-height: 32px;
-    text-align: center;
     display: block;
-    width: 216px;
+}
+.pop p{
+    font-size: 18px;
     float: left;
     font-family: 微软雅黑;
-    top: 2px;
-    position: relative;
+    margin-top: 14px;
+    margin-left: 67px;
+}
+.dec{
+    width: 220px;
+    height: 20px;
+    top: 200px;
+}
+.dec img{
+    margin-top: -10px;
 }
 p{
     margin: 0;
@@ -324,14 +334,18 @@ p{
     width: 882px;
     overflow: hidden;
     float: left;
-    margin-top: 20px;
+    margin-top: 70px;
+}
+.popular ul p{
+    font-size: 16px;
+    margin-top: 10px;
 }
 .popular ul li{
     width: 280px;
+    height: 220px;
     overflow: hidden;
     float: left;
     margin: 0 14px 15px 0;
-    margin-top: ;
 }
 ul li, ol li {
     list-style: none;
@@ -340,18 +354,20 @@ li {
     display: list-item;
     text-align: -webkit-match-parent;
 }
-.popular a.imgg{
+.popular a.im{
     float: right;
     width: 288px;
     height: 424px;
     display: block;
-    margin-top: 20px;
+    margin-top: 100px;
+    margin-right: 47px;
 }
 a {
     text-decoration: none;
 }
 .popular,.spec{
-    width: 1170px;
+    margin-left: 200px;
+    width: 1520px;
     height: 600px;
     overflow: hidden;
     float: left;
