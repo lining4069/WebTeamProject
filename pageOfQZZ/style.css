@@ -210,6 +210,7 @@ body{
 	width: 100%;
 	height: 100px;
 	background-color: #323232;
+    margin-top: 3600px;
 }
 .footer-bottom{
 	width: 1200px;
@@ -222,7 +223,7 @@ body{
 	left: 235px;
 	top: 25px;
 	text-align: center;
-
+    margin-top: -15px;
 }
 .footer-bottom-content a{
 	color: #fff;
@@ -235,6 +236,7 @@ body{
 	position: absolute;
 	top: 70px;
 	left: 465px;
+    margin-top: -15px;
 }
 .banner{
     width: 436px;
@@ -294,10 +296,112 @@ a span,a:hover span{
     float: left;
     margin-right: 15px;
 }
-
-
-
-
+.div{
+    display: block;
+}
+p.pop{
+    font-size: 18px;
+    height: 44px;
+    border-bottom: 2px solid #ccc;
+    font-weight: normal;
+    line-height: 32px;
+    color: #666;
+    text-align: center;
+    display: block;
+    width: 216px;
+    float: left;
+    font-family: 微软雅黑;
+    top: 2px;
+    position: relative;
+}
+p{
+    margin: 0;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.popular ul{
+    width: 882px;
+    overflow: hidden;
+    float: left;
+    margin-top: 20px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.popular ul li{
+   width: 280px;
+    overflow: hidden;
+    float: left;
+    margin: 0 14px 15px 0;
+}
+ul li, ol li {
+    list-style: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.popular a.imgg{
+    float: right;
+    width: 288px;
+    height: 424px;
+    display: block;
+    margin-top: 20px;
+}
+a {
+    text-decoration: none;
+}
+.popular,.spec{
+    width: 1170px;
+    overflow: hidden;
+    float: left;
+}
+.spec a.imgg{
+    float: left;
+}
+.list{
+    width: 862px;
+    float: left;
+    padding-left: 20px;
+    overflow: hidden;
+}
+.popular p{
+    color: black;
+}
+.classification{
+    margin-right: 50px;
+    float: right;
+    width: 252px;
+    border: 1px solid #eee;
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 20px;
+    padding-bottom: 0px;
+}
+.classification p{
+    color: black;
+    font-family: 微软雅黑;
+    width: 100%;
+    overflow: hidden;
+    float: left;
+    margin-bottom: 10px;
+}
+.classification p a{
+    width: 74px;
+    float: left;
+    margin: 3px;
+}
 
 
 
