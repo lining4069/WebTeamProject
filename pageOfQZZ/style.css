@@ -240,6 +240,7 @@ body{
     width: 436px;
     overflow: hidden;
     float: right;
+    margin-right: 50px;
 }
 ul{
     display: block;
@@ -260,7 +261,39 @@ li{
     background: #f7f7f7;
     margin-bottom: 18px;
 }
-
+.banner li p{
+    color: black;
+    width: 189px;
+    float: left;
+    margin-top: 5px;
+    font-size: 16px;
+}
+p{
+    margin: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.banner li span{
+    width: 189px;
+    height: 66px;
+    float: left;
+    display: block;
+    margin-top: -5px;
+    color: #999;
+}
+a span,a:hover span{
+    cursor: pointer;
+}
+.banner li img{
+    margin-top: 0px;
+    width: 216px;
+    height: 127px;
+    float: left;
+    margin-right: 15px;
+}
 
 
 
