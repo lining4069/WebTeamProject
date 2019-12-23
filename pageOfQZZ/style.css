@@ -305,7 +305,7 @@ a span,a:hover span{
 .pop{
     width: 1372px;
     height: 50px;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid rgba(210, 210, 210, 1.0);
     display: block;
 }
 .pop p{
@@ -318,10 +318,11 @@ a span,a:hover span{
 .dec{
     width: 220px;
     height: 20px;
-    top: 200px;
 }
 .dec img{
+    position: absolute;
     margin-top: -10px;
+    margin-left: -140px;
 }
 p{
     margin: 0;
