@@ -6,8 +6,9 @@ ul,li,ol{
     list-style: none;
 }
 a{
-    color:white;
+    color:black;
     text-decoration: none;
+
 }
 /* 头部 */
 .header-wrap{
@@ -197,6 +198,49 @@ a{
     height: 800px;
     margin: 0 auto;
     position: relative;
+}
+.location{
+    height:30px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #ccc;
+}
+.location a:link{
+    font-size: 18px;
+    color: #ccc;
+    text-decoration:none;
+}
+.location a:hover{
+    text-decoration:underline;
+}
+.location img{
+    width: 20px;
+    height: 20px;
+}
+.imgs li{
+    float: left;
+    margin-left: 10px;
+}
+.imgs li img{
+    width: 232px;
+}
+#first{
+    margin-left: 0px;
+}
+.img1{
+    position: relative;
+}
+.hr{
+    width: 232px;
+    height: 40px;
+    background-color: rgba(150,150,150,0.5);
+    position: absolute;
+    top: 126px;
+}
+.hr p{
+    text-align: center;
+    line-height: 40px;
+    color: white;
 }
 
 /*底部的共用部分*/
