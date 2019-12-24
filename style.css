@@ -99,12 +99,19 @@ a{
     line-height: 50px;
     vertical-align: top;
 }
+.nav>li a{
+    color: black;
+}
 .nav>li:hover{
     background: rgba(66, 57, 192, 0.3);
+    border-bottom: white 2px solid;
+}
+.nav>li:hover a{
+    color: white;
 }
 /* a标签的字体颜色只能加给a标签，不会继承父元素的 */
 /* :hover也是选择器，后面可以继续写选择器，构成后代选择器 */
-.nav>li:hover >a{
+/* .nav>li:hover >a{
     color: rgb(92, 87, 87);
 }
 .nav>li:hover .hide{
@@ -119,7 +126,7 @@ a{
 }
 .hide li:hover{
     background-color: lightblue;
-}
+} */
 
 /*实现导航下的轮播图*/
 .box-warp{

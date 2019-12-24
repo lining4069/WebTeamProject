@@ -108,26 +108,15 @@ color: rgba(6,115,208);
     line-height: 50px;
     vertical-align: top;
 }
+.nav>li a{
+    color: black;
+}
 .nav>li:hover{
     background: rgba(66, 57, 192, 0.3);
+    border-bottom: white 2px solid;
 }
-/* a标签的字体颜色只能加给a标签，不会继承父元素的 
-/* :hover也是选择器，后面可以继续写选择器，构成后代选择器 */
-.nav>li:hover >a{
-    color: rgb(92, 87, 87);
-}
-.nav>li:hover .hide{
-    display: block;
-}
-.hide{
-    background: rgba(66, 57, 192, 0.3);
-    display: none;
-}
-.hide a{
-    color: rgba(44, 44, 46, 0.8);
-}
-.hide li:hover{
-    background-color: lightblue;
+.nav>li:hover a{
+    color: white;
 }
 /*实现首页的主题部分——首页特有*/
 .body-warp{
