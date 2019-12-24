@@ -138,3 +138,4 @@
 // 		li[index - 1].className = 'li';
 // 	}
 // }
+document.getElementsByTagName('body')[0].style.zoom=0.69;
