@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>星旅旅游网</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="header-wrap">
+        <div class="header">
+            <p>
+                <span>
+                    星旅旅游网欢迎您！ 你挚爱哪一个人，又热爱哪一道风景……
+                </span>
+                <a href="#">请登录</a>|
+                <a href="#">注册</a>
+            </p>
+        </div>
+    </div>
+    <!--loge和搜索以及导航栏-->
+    <div class="nav-box">
+        <img src="./images/QQ图片20191220155307.png" alt="#" class="box-loge" />
+        <form class="box-form">
+            <input type="text" name="input1" value="请输入目的地或资讯的关键字" class="text1" />
+            <button id="button1" class="button1">搜索</button>
+            <div>
+                <span>热门搜索:</span>
+                <a href="#">美食</a>
+                <a href="#">香港</a>
+                <a href="#">北京</a>
+            </div>
+        </form>
+        <!--导航栏，实现滑动显示隐藏项-->
+        <div class="nav-warp">
+            <ul class="nav">
+                <li>
+                    <a href="#">星途首页</a>
+                    <ul class="hide">
+                        <li>
+                            <a href="#">星途首页2</a>
+                        </li>
+                        <li>
+                            <a href="#">星途首页3</a>
+                        </li>
+                        <li>
+                            <a href="#">星途首页4</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">景点推荐</a>
+                    <ul class="hide">
+                        <li>
+                            <a href="#">跟团游</a>
+                        </li>
+                        <li>
+                            <a href="#">自由行</a>
+                        </li>
+                        <li>
+                            <a href="#">门票</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">旅游摄影</a>
+                    <ul class="hide">
+                        <li>
+                            <a href="#">旅游摄影1</a>
+                        </li>
+                        <li>
+                            <a href="#">旅游摄影2</a>
+                        </li>
+                        <li>
+                            <a href="#">旅游摄影3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">旅游美食</a>
+                    <ul class="hide">
+                        <li>
+                            <a href="#">旅游美食1</a>
+                        </li>
+                        <li>
+                            <a href="#">旅游美食2</a>
+                        </li>
+                        <li>
+                            <a href="#">旅游美食3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">旅游资讯</a>
+                    <ul class="hide">
+                        <li>
+                            <a href="#">旅游资讯1</a>
+                        </li>
+                        <li>
+                            <a href="#">旅游资讯2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">我的主页</a>
+                    <ul class="hide">
+                        <li>
+                            <a href="#">我的主页1</a>
+                        </li>
+                        <li>
+                            <a href="#">我的主页2</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <!--实现导航栏下的轮播图-->
+    <div class="box-warp">
+        <div id="box">
+            <div id="slider">
+                <div class="img"><img src="images/5.png"></div>
+                <div class="img"><img src="images/1.jpg"></div>
+                <div class="img"><img src="images/2.jpg"></div>
+                <div class="img"><img src="images/3.jpg"></div>
+                <div class="img"><img src="images/4.jpg"></div>
+                <div class="img"><img src="images/5.png"></div>
+                <div class="img"><img src="images/1.jpg"></div>
+            </div>
+            <span id="left" onselectstart="return false">
+                《</span> <span id="right" onselectstart="return false">》
+            </span>
+            <ul>
+                <li class="li"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <!--主题部分-->
+    <div class="container-warp">
+        <div class="container">
+            <!--旅游资讯-->
+            <div class="information-warp">
+                <div class="information">
+                    <div class="public-p">
+                        <h3>旅游资讯</h3>
+                    </div>
+                    <div class="refresh">
+                        <div class="br">
+                            <hr>
+                        </div>
+                        <img src="./images/更多.png" alt="">
+                        <span><a href="">查看更多</a></span>
+                    </div>
+                    <div class="information-content">
+                        <div class="content-class">
+                            <ul>
+                                <li>视点聚焦</li>
+                                <li>节日活动</li>
+                                <li>时事热点</li>
+                            </ul>
+                        </div>
+                        <div class="content-Canchange">
+                            <div class="content-list">
+                                <div class="hl_hot">
+                                    <div class="hl_title">
+                                        <a href="/travel-news/1441712.html">【惠州住宿攻略】去惠州旅游住哪里好，…</a>
+                                    </div>
+                                    <div class="hl_desc"> 惠州是客家人的重要聚居地，叶挺、廖仲恺等人出生在这里，宋代文豪苏东坡曾生活在这里。西子湖畔，似乎还<a
+                                            href="/travel-news/1441712.html" style="color: red;">更多&gt;&gt;&gt;</a>
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li><a href="/travel-news/1441711.html"
+                                            title="【恩施住宿攻略】恩施住哪里方便，恩施旅游住哪比较好">【恩施住宿攻略】恩施住哪里方便，恩施旅游住…</a></li>
+                                    <li><a href="/travel-news/1441708.html"
+                                            title="【芙蓉镇住宿攻略】芙蓉镇住宿哪家好，芙蓉镇住宿推荐">【芙蓉镇住宿攻略】芙蓉镇住宿哪家好，芙蓉镇…</a></li>
+                                    <li><a href="/travel-news/1441705.html"
+                                            title="【住宿】焦作云台山住宿攻略，云台山住宿多少钱">【住宿】焦作云台山住宿攻略，云台山住宿多少钱</a></li>
+                                    <li><a href="/travel-news/1441704.html"
+                                            title="【蔚县旅游住宿攻略】蔚县住宿哪家宾馆好，蔚县民宿哪家好">【蔚县旅游住宿攻略】蔚县住宿哪家宾馆好，蔚…</a></li>
+                                    <li><a href="/travel-news/1441703.html"
+                                            title="【塞罕坝住宿攻略】塞罕坝旅游住哪好，塞罕坝住宿哪里好">【塞罕坝住宿攻略】塞罕坝旅游住哪好，塞罕坝…</a></li>
+                                </ul>
+                            </div>
+                            <div class="content-photoNews">
+                                <div class="ht_left">
+                                    <div class="ht_left_up">
+                                        <a href="http://www.mafengwo.cn/travel-news/643142.html"><img
+                                                src="http://b1-q.mafengwo.net/s11/M00/98/F8/wKgBEFsaSo-ATzS8AAECCq-o_uM41.jpeg"
+                                                alt="苏州二日游"></a>
+                                        <p><a href="http://www.mafengwo.cn/travel-news/643142.html"
+                                                title="苏州二日游">苏州二日游</a></p>
+                                    </div>
+                                    <div class="ht_left_down">
+                                        <a href="http://www.mafengwo.cn/travel-news/223893.html"><img
+                                                src="http://b1-q.mafengwo.net/s11/M00/97/74/wKgBEFsaSUyAR9spAADgm75W5T020.jpeg"
+                                                alt="厦门经典游玩路线"></a>
+                                        <p><a href="http://www.mafengwo.cn/travel-news/223893.html"
+                                                title="厦门经典游玩路线">厦门经典游玩路线</a></p>
+                                    </div>
+                                </div>
+                                <div class="ht_right">
+                                    <div class="ht_con">
+                                        <a href="http://www.mafengwo.cn/travel-news/221728.html"><img
+                                                src="http://p1-q.mafengwo.net/s14/M00/0B/47/wKgE2l01HneAatyVAAEkDv4FHlA716.jpg"
+                                                alt="夏天、海边、日出"></a>
+                                        <p><a href="http://www.mafengwo.cn/travel-news/221728.html"
+                                                title="夏天、海边、日出">夏天、海边、日出</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--旅游景点-->
+            <div class="Attractions-warp">
+                <div class="Attractions">
+                    <div class="public-p">
+                        <h3>旅游景点</h3>
+                    </div>
+                    <div class="refresh">
+                        <div class="br">
+                            <hr>
+                        </div>
+                        <img src="./images/刷新 .png" alt="">
+                        <span>换一换</span>
+                    </div>
+                    <div class="attraction_box">
+                        <ul>
+                            <li>
+                                <img src="./images/土耳其.jpg" alt="">
+                                <div class="element_minTitle">
+                                    <span>10 days</span>
+                                    <p>土耳其冬季之旅</p>
+                                </div>
+                                <div class="element_bigTitle">
+                                    <p>土耳其冬季之旅</p>
+                                    <span> <a href="">“星旅”景点玩法</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="./images/云南大理.jpg" alt="">
+                                <div class="element_minTitle">
+                                    <span>8 days</span>
+                                    <p>云南大理冬季之旅</p>
+                                </div>
+                                <div class="element_bigTitle">
+                                    <p class="p1">云南大理冬季之旅</p>
+                                    <span> <a href="">“星旅”景点玩法</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="./images/毛里求斯.png" alt="">
+                                <div class="element_minTitle">
+                                    <span>10 days</span>
+                                    <p>毛里求斯冬季之旅</p>
+                                </div>
+                                <div class="element_bigTitle">
+                                    <p class="p1">毛里求斯冬季之旅</p>
+                                    <span> <a href="">“星旅”景点玩法</a></span>                     
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--旅游摄影-->
+            <div class="photography-warp">
+                <div class="photography">
+                    <div class="public-p" style="background-color: #fff;">
+                        <h3>旅游摄影</h3>
+                    </div>
+                    <div class="refresh">
+                        <div class="br">
+                            <hr>
+                        </div>
+                        <img src="./images/刷新 .png" alt="">
+                        <span>换一换</span>
+                    </div>
+                    <div class="photography_content">
+                        <div class="photography_content_left">
+                            <div class="pcl_tilte">
+                                <span>稻城</span>
+                                <a href="">全部</a>
+                            </div>
+                            <div class="pcl_photo">
+                                <img src="./images/稻城left1.jpg" alt="" style="margin-right: 10px;">
+                                <img src="./images/稻城left2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="photography_content_right">
+                            <div class="pcr_top">
+                                <img src="./images/云南稻城.png" alt="" style="margin-right: 10px;">
+                                <img src="./images/云南稻城2.png" alt="">
+                            </div>
+                            <div class="pcr_bottom">
+                                <img src="./images/稻城small1.jpg" alt="">
+                                <img src="./images/稻城small2.jpg" alt="">
+                                <img src="./images/稻城small3.jpg" alt="">
+                                <img src="./images/稻城small4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--旅游美食-->
+            <div class="food-warp">
+                <div class="food">
+                    <div class="public-p">
+                        <h3>旅游美食</h3>
+                    </div>
+                    <div class="refresh">
+                        <div class="br">
+                            <hr>
+                        </div>
+                        <img src="./images/刷新 .png" alt="">
+                        <span>换一换</span>
+                    </div>
+                    <div class="food-content">
+                        <!--1-->
+                        <div class="food-content-element">
+                            <a href="https://home.meishichina.com/recipe-103529.html" class="imgonClick">
+                                <img src="./images/肉夹馍.jpg" alt="">
+                            </a>
+                            <a href="https://home.meishichina.com/recipe-103529.html" class="ponClick">
+                                <div class="element-title">
+                                    <p>西安的肉夹馍（钟楼店）</p>
+                                </div>
+                                <div class="element-content">
+                                    <p>
+                                        来西安旅游之必选。坐落在钟
+                                        鼓楼商圈的白起肉夹馍用传统方法打
+                                        的白吉馍，腊汁肉精选关中黑猪硬肋条
+                                        肉用秦岭泉水及20余种调理配老汤文火炖制
+                                        ，肉烂不柴，满口香醇。</p>
+                                </div>
+                                <div class="element-foot">
+                                    <img src="./images/people.jfif" alt="">
+                                    <span>会玩的美食家</span>
+                                </div>
+                            </a>
+                        </div>
+                        <!--2-->
+                        <div class="food-content-element">
+                            <a href="http://www.x6tb.com/" class="imgonClick">
+                                <img src="./images/汤包.jpg" alt="">
+                            </a>
+                            <a href="http://www.x6tb.com/" class="ponClick">
+                                <div class="element-title">
+                                    <p>小六汤包 （金地店）</p>
+                                </div>
+                                <div class="element-content">
+                                    <p>小六汤包 （金地店）
+                                        西安市很多地方都有，虽说是汤包
+                                        ，其实并没有什么汤，但是馅料
+                                        给的很足，性价比超高，人均三十左右
+                                        （如果是喜欢汤包里满满的汤汁 还是首推
+                                        贾三灌汤包）！</p>
+                                </div>
+                                <div class="element-foot">
+                                    <img src="./images/people.jfif" alt="">
+                                    <span>会玩的美食家</span>
+                                </div>
+                            </a>
+                        </div>
+                        <!--3-->
+                        <div class="food-content-element">
+                            <a href="http://baijiahao.baidu.com/s?id=1642027274018842795&wfr=spider&for=pc"
+                                class="imgonClick">
+                                <img src="./images/胡辣汤.jpg" alt="">
+                            </a>
+                            <a href="http://baijiahao.baidu.com/s?id=1642027274018842795&wfr=spider&for=pc"
+                                class="ponClick">
+                                <div class="element-title">
+                                    <p>方中山胡辣汤 （竹笆店）</p>
+                                </div>
+                                <div class="element-content">
+                                    <p>葱香炸油饼 浸满 满满胡椒辣味
+                                        的 汤汁 在嘴里咀嚼时 那种 爆
+                                        浆般的感觉 胡辣汤的香辣 油饼的葱
+                                        香 麦香 直戳味蕾的痒点 排这么久
+                                        的队 值！ 优质胡辣汤 简直太实在 大
+                                        片大片的牛肉 还有木耳香菇面筋…… 牛肉盒
+                                        也不错 还有牛肉水煎包 。
+                                    </p>
+                                </div>
+                                <div class="element-foot">
+                                    <img src="./images/people.jfif" alt="">
+                                    <span>会吃的美食家</span>
+                                </div>
+                            </a>
+                        </div>
+                        <!--4-->
+                        <div class="food-content-element">
+                            <a href="" class="imgonClick">
+                                <img src="./images/口味虾.jpg" alt="">
+                            </a>
+                            <a href="" class="ponClick">
+                                <div class="element-title">
+                                    <p>口味虾</p>
+                                </div>
+                                <div class="element-content">
+                                    <p>口味虾又叫长沙口味虾、麻辣小龙虾
+                                        、香辣小龙虾等，是湖南省著名
+                                        的汉族小吃，以小龙虾制成，口味辣
+                                        鲜香，色泽红亮，质地滑嫩，滋味香辣。
+                                        0世纪末开始传遍全国，成为人们夏夜街边啤酒
+                                        摊的经典小吃。</p>
+                                </div>
+                                <div class="element-foot">
+                                    <img src="./images/people.jfif" alt="">
+                                    <span>只会玩的美食家</span>
+                                </div>
+                            </a>
+                        </div>
+                        <!--5-->
+                        <div class="food-content-element">
+                            <a href="" class="imgonClick">
+                                <img src="./images/蒸饺.jpg" alt="">
+                            </a>
+                            <a href="" class="ponClick">
+                                <div class="element-title">
+                                    <p>广东-虾饺</p>
+                                </div>
+                                <div class="element-content">
+                                    <p>虾饺是广东省的汉族传统小吃，属粤菜系，
+                                        起源于广州郊外靠近河涌集市的茶居。那
+                                        些地方盛产鱼虾，茶居师傅再配上猪肉、
+                                        竹笋，制成肉馅。当时虾饺的外皮选用粘(大
+                                        )米粉，皮质较厚，但由于鲜虾味美，很快流传开来。</p>
+                                </div>
+                                <div class="element-foot">
+                                    <img src="./images/people.jfif" alt="">
+                                    <span>只会吃的美食家</span>
+                                </div>
+                            </a>
+                        </div>
+                        <!--6-->
+                        <div class="food-content-element">
+                            <a href="" class="imgonClick">
+                                <img src="./images/热干面.jpg" alt="">
+                            </a>
+                            <a href="" class="ponClick">
+                                <div class="element-title">
+                                    <p>湖北热干面</p>
+                                </div>
+                                <div class="element-content">
+                                    <p> 热干面是湖北省武汉市的汉族特色小吃
+                                        ，原本是武汉的特色美食，在湖北很多地方都十分受欢迎。
+                                        武汉热干面也在许多地方都
+                                        能见到，是诸多人喜欢的面食之一。
+                                    </p>
+                                </div>
+                                <div class="element-foot">
+                                    <img src="./images/people.jfif" alt="">
+                                    <span>会吃的王者</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--底栏框——公共-->
+    <div class="footer-bottom-wrap">
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <a href="#"> 公司首页&nbsp&nbsp |</a> &nbsp
+                <a href="#"> 工商代理&nbsp&nbsp |</a> &nbsp
+                <a href="#"> 财务代记账&nbsp&nbsp |</a> &nbsp
+                <a href="#"> 股权交易与变更&nbsp&nbsp |</a> &nbsp
+                <a href="#"> 企业贷款&nbsp&nbsp |</a> &nbsp
+                <a href="#"> 办公室租赁&nbsp&nbsp |</a> &nbsp
+                <a href="#"> 社保公积金代理&nbsp&nbsp |</a>&nbsp
+                <a href="#"> 法律服务</a>
+            </div>
+            <div class="footer-bottom-end">
+                <p>©2019-2020_星途旅游有限公司_版权所有</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
