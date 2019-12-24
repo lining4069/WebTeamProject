@@ -82,7 +82,7 @@ a{
 }
 /*导航栏的CSS文件*/
 .nav-warp{
-    background-color: #06b454;
+    background-color: #1f659e;
     width: 100%;
 }
 .nav{
@@ -339,11 +339,31 @@ a{
 .right2 img{
     width: 280px;
     height: 200px;
+    /*margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;*/
+}
+#box{
+    width: 280px;
+    height: 200px;
+    top:10px;
     margin-left: 10px;
     margin-top: 10px;
-    margin-bottom: 15px;
+    
+    /*margin-bottom: 15px;*/
+    border:1px solid black;
+    position: relative;
+    overflow: hidden;
 }
+.slide{
+    width: 280px;
+    height: 200px;
+    position: absolute;
+}
+
 .right_pic{
+    width: 300px;
+    height: 211px;
     position: relative;
 }
 .hr1{
@@ -368,6 +388,9 @@ a{
     color: blue;
     text-decoration: underline;
 }
+.right2 ul{
+    margin-top: 10px;
+}
 .right2 ul li{
     width: 280px;
     height: 28px;
@@ -375,6 +398,7 @@ a{
     background-color: #fff;
     margin-left: 10px;
     margin-bottom: 5px;
+
 }
 .right2 ul li a{
     font-size: 15px;
@@ -410,9 +434,23 @@ a{
     color: lightblue;
     text-decoration: underline;
 }
-.right4 img{
+/*.right4 img{
     width: 300px;
     height:300px;
+}*/
+.change0{
+    width: 300px;
+    height:300px;
+    overflow: hidden;
+}
+.change0 img{
+    width: 300px;
+    height:300px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.change0 img:hover{
+    transform: scale(1.4);
 }
 .body-bottom-wrap{
     width: 100%;
@@ -446,6 +484,8 @@ a{
     height: 20px;
     line-height: 20px;
     text-align:center;
+    margin-top: 20px;
+    text-align:center;
 }
 .boxs a:hover{
     text-decoration: underline;
@@ -454,15 +494,29 @@ a{
     margin-top: 20px;
     width: 280px;
     height: 50px;
-    line-height: 35px;
+    line-height: 30px;
     text-align:center;
 }
 .body-bottom div img{
     width: 250px;
     height: 200px;
     text-align: center;
+}
+.change{
+    width: 250px;
+    height: 200px;
+    text-align: center;
     margin-left: 25px;
     margin-top: 30px;
+    border:1px solid #000;
+    overflow: hidden;
+}
+.change img{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.change img:hover{
+    transform: scale(1.4);
 }
 /*底部的共用部分*/
 .footer-bottom-wrap{
@@ -495,4 +549,8 @@ a{
 	position: absolute;
 	top: 70px;
 	left: 465px;
+}
+.tit{
+    font-weight: bolder;
+    color: blue;
 }
