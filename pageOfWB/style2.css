@@ -1,0 +1,404 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li,ol{
+    list-style: none;
+}
+.header-wrap a{
+    color:white;
+    text-decoration: none;
+}
+/* 头部 */
+.header-wrap{
+    height: 30px;
+    background-color: #eee9e6;
+}
+.header{
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+}
+.header p{
+    float: right;
+    color: rgb(63, 61, 61);
+    height: 30px;
+    line-height: 30px;
+}
+.header span{
+    font-size: 14px;
+    margin-right:600px;
+}
+.header a{
+    color: rgb(18, 20, 19);
+    font-size: 14px;
+    margin: 0px 14px 0;
+}
+
+/*搜索以及菜单*/
+.nav-box{
+    position: relative;
+}
+/*loge以及搜索框的CSS样式*/
+.box-loge{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 100px;
+}
+.box-form{
+    position: relative;
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+}
+.box-form input{
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left:100px;
+    color: rgba(166, 166, 166, 1);
+}
+.box-form button{
+    width: 100px;
+    height: 34px;
+    position: absolute;
+    top: 30px;
+    right: 98px;
+}
+.box-form div{
+    width: 400px;
+    height: 20px;
+    position:absolute;
+    top: 65px;
+    left: 100px;
+    font-size: 12px;
+}
+.box-form a{
+    color: black;
+}
+/*导航栏的CSS文件*/
+.nav-warp a{
+    color:white;
+    text-decoration: none;
+}
+.nav-warp{
+    background-color:#1f659e;
+    width: 100%;
+}
+.nav{
+    font-size: 0;
+    width: 1100px;
+    /* 使块级元素水平居中 */
+    margin: 0 auto;
+}
+
+.nav>li{
+    font-size: 14px;
+    display: inline-block;
+    width: 110px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: top;
+}
+.nav>li:hover{
+    background: rgba(66, 57, 192, 0.3);
+}
+/* a标签的字体颜色只能加给a标签，不会继承父元素的 */
+/* :hover也是选择器，后面可以继续写选择器，构成后代选择器 */
+.nav>li:hover >a{
+    color: rgb(92, 87, 87);
+}
+.nav>li:hover .hide{
+    display: block;
+}
+.hide{
+    background: rgba(66, 57, 192, 0.3);
+    display: none;
+}
+.hide a{
+    color:white;
+}
+.hide li:hover{
+    background-color: lightblue;
+}
+
+
+/*中部*/
+.main{
+    width:100%;
+    height:500px;
+}
+/*实现导航下的图*/
+.main-warp{
+    width: 100%;
+    height:500px;
+    border-bottom:0.5px solid rgb(151, 132, 132);
+    position:absolute;
+}
+.bigtitle{
+    height:50px;
+    width:200px;
+    font-size:50px;
+    color:rgba(255,255,255,0.6);
+    margin-top:-150px;
+    margin-left:660px;
+    position:relative;
+}
+
+/*实现首页的主题部分——首页特有*/
+.down{
+    width:100%;
+    height:3200px;
+}
+
+/*侧面导航*/
+.down-nov{
+    height:2600px;
+    width:21%;
+    float:left;
+    background-color:#d8e4e8;
+}
+
+.nov{
+    font-size:15px;
+    width:1500px;
+    /* 使块级元素水平居中 */
+    margin: 0 auto;
+}
+.nov a{
+    font-size:15px;
+    text-decoration:none;
+    color:#505050;
+}
+.nov>li{
+    font-size:25px;
+    display:block;
+    width:21%;
+    height:70px;
+    text-align:center;
+    line-height:70px;
+}
+.nov>li:hover{
+    background:rgba(66, 57, 192, 0.3);
+}
+.nov>li:hover >a{
+    font-size:19px;
+    color:#eee9e6;
+}
+
+.down-warp{
+    width:79%;
+    height:2600px;
+    float:left;
+    position:relative;
+    background-color:#ceccd8;
+}
+/*公用 标题 隔断*/
+.biao{
+    height:50px;
+    font-size:22px;
+    text-align:center;
+    line-height:20px;
+    padding-top:30px;
+}
+.geduan{
+    height:1px;
+    background-color:black;
+}
+/*动态*/
+.down-div1{
+    height:900px;
+    width:100%;
+}
+.donngtai{
+    height:800px;
+    width:80%;
+}
+.textarea{
+    width:900px;
+    height:150px;
+    background-color:white;
+    margin-left:150px;
+    margin-top:10px;
+    border-radius:20px;
+}
+.area{
+    height:125px;
+    width:500px;
+    font-size:20px;
+    margin-left:150px;
+    margin-top:10px;
+    float:left;
+}
+.btn1{
+    width:100px;
+    height:40px;
+    color:#505050;
+    margin-top:95px;
+    margin-left:20px;
+    float:left;
+}
+.dongtai{
+    width:900px;
+    height:200px;
+    border-radius:20px;
+    background-color:white;
+    margin-left:150px;
+    margin-top:10px;
+}
+.down-div1 a{
+    font-size:20px;
+    margin-left:1130px;
+}
+#dongtai1{
+    height:130px;
+    width:700px;
+    font-size:20px;
+    margin-top:10px;
+    margin-left:100px;
+}
+#data a{
+    height:20px;
+    width:100px;
+    font-size:19px;
+    margin-left:700px;
+    margin-bottom:5px;
+}
+/*主页-游记*/
+.down-div2{
+    height:470px;
+    width:100%;
+}
+.youji{
+    width:900px;
+    height:170px;
+    border-radius:20px;
+    background-color:white;
+    margin-left:150px;
+    margin-top:10px;
+}
+.down-div2 a{
+    font-size:20px;
+    margin-left:1130px;
+}
+/*影集*/
+.down-div3{
+    height:310px;
+    width:100%; 
+}
+.yingji{
+    width:190px;
+    height:200px;
+    background-color:white;
+    float:left;
+    border-radius:10px;
+    margin-left:10px;
+}
+.yingji img{
+    width:150px;
+    height:150px;
+    margin-left:20px;
+    margin-top:20px;
+}
+.down-div3 a{
+    font-size:20px;
+    margin-left:1130px;
+}
+/*美食*/
+.down-div4{
+    height:310px;
+    width:100%; 
+}
+.weidao{
+    width:190px;
+    height:200px;
+    background-color:white;
+    float:left;
+    border-radius:10px;
+    margin-left:10px;
+}
+.weidao img{
+    width:150px;
+    height:150px;
+    margin-left:20px;
+    margin-top:20px;
+}
+.down-div4 a{
+    font-size:20px;
+    margin-left:1130px;
+}
+/*留言*/
+.down-div5{
+    height:500px;
+    width:100%;
+}
+.huida{
+    width:900px;
+    height:100px;
+    border-radius:20px;
+    background-color:white;
+    margin-left:150px;
+    margin-top:10px;
+}
+.down-div5 a{
+    font-size:20px;
+    margin-left:1130px;
+}
+
+.down-last{
+    height:600px;
+    width:100%;
+    background-color:#d1eae8;
+    float:left;
+}
+#liuyan1{
+    height:70px;
+    width:700px;
+    font-size:20px;
+    margin-top:10px;
+    margin-left:100px;
+}
+#data a{
+    height:20px;
+    width:100px;
+    font-size:19px;
+    margin-left:700px;
+    margin-bottom:5px;
+}
+
+/*底部的共用部分*/
+.footer-bottom-wrap{
+	width:100%;
+	height:100px;
+	background-color:#323232;
+}
+.footer-bottom{
+	width:1200px;
+	height:100px;
+	position:relative;
+	margin:0px auto;
+}
+.footer-bottom-content{
+	position:absolute;
+	left:235px;
+	top:25px;
+	text-align:center;
+
+}
+.footer-bottom-content a{
+	color:#fff;
+	font-size:14px;
+	line-height:3.429;
+}
+.footer-bottom-end{
+	font-size:14px;
+	color:#fff;
+	position:absolute;
+	top:70px;
+	left:465px;
+}
