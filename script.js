@@ -109,32 +109,29 @@ box.onmouseout = function () {
 	});
 	timer = setInterval(next, 5000);
 }
-
-right.onclick = next();
-
-left.onclick = before();
-
 for (var i = 0; i < 5; i++) {
-	li[i].innerHTML = i + 1;
 	li[i].onclick = function () {
 		console.log(this.innerHTML);
 		index = this.innerHTML;
-		numberChange();
 		animate(slider, {
 			left: -1200 * (this.innerHTML)
 		})
 	}
 }
-
+window.onload=function(){
+	li[0].style.backgroundColor="red";
+}
 function numberChange() {
+	console.log(index);
 	for (var i = 0; i < li.length; i++) {
-		li[i].className = '';
+		li[i].style.backgroundColor="";
 	}
 	if (index >= 6) {
-		li[0].className = 'li';
+		li[0].style.backgroundColor="red";
 	} else if (index <= 0) {
-		li[4].className = 'li';
-	} else {
-		li[index - 1].className = 'li';
+		li[4].style.backgroundColor="red";
+	} 
+	else {
+		li[index - 1].style.backgroundColor="red";
 	}
 }

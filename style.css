@@ -81,7 +81,7 @@ a{
 }
 /*导航栏的CSS文件*/
 .nav-warp{
-    background-color: #06b454;
+    background-color: #1f659e;
     width: 100%;
 }
 .nav{
@@ -173,7 +173,7 @@ a{
 }
 #box li{
     float: left;
-    background: #ccc;
+    background-color:  #ccc;
     border-radius: 50%;
     width: 20px;
     height: 20px;
@@ -182,10 +182,9 @@ a{
     list-style-type: none;
     text-align: center;
 }
-.li{
+.listyle{
     background-color: red;
     opacity: 0.8;
-    color: white;
 }
 /*实现首页的主题部分——首页特有*/
 .container-warp{
@@ -398,7 +397,7 @@ a{
     width: 310px;
     height: 50px;
     position: absolute;
-    bottom: 10px;
+    bottom: 15px;
     background-color: rgba(0, 0, 0, 0.6);
 }
 .element_minTitle span{
