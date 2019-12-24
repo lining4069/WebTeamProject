@@ -138,3 +138,67 @@
 // 		li[index - 1].className = 'li';
 // 	}
 // }
+
+//字幕滚动变量
+var scrollTime=null;
+var len = 400;//一个完整滚动条的长度
+var x = 0;
+//启动滚动定时器
+function roll(){
+	console.log("启动");
+	var tag1 = document.querySelector(".scroll>span");
+	var tag2 = tag1.nextSibling
+	var fun = function(){
+		tag1.style.left = x + 'px';
+		tag2.style.left = (x+len)+'px';
+		x=x-5;
+		if((x+len)===0){
+			x=0;
+		}
+	}
+	if(scrollTime){
+		clearInterval(scrollTime);
+	}
+	scrollTime = setInterval(fun,300);
+}
+//绑定鼠标事件
+function bindMouseEvent(){
+	var e1 = document.querySelector(".scroll>span");
+	var e12 = e1.cloneNode(true);
+	len = e1.clientWidth + 100;//动态改变滚动条的长度，避免文字过多重叠
+	e12.style.left = (x+len)+"px";
+	e1.parentElement.appendChild(e12);
+	e1.addEventListener("mouseenter",function(e){
+		clearInterval(scrollTime);
+	})
+	e1.addEventListener('mouseleave',function(e){
+		roll();
+	})
+
+}
+
+// var warn = document.getElementById("warn");
+// var warn = document.getElementById("warn1");
+// var warn11 = document.getElementById("warn11");
+// function rol(){
+// 	var locate=parseInt(getStyle(warn11,"left"));
+// 	warn11.style.left = locate-1+"px";
+// 	if (locate==-360) {
+// 		warn11.style.left=1200+"px";
+// 	}
+// }
+// setInterval(rol,15);
+// warn1.appendChild(warn11.cloneNode(true));
+// function warnScroll(){
+// warn.scrollLeft+=1;
+//     if(warn.scrollLeft>=warn11.offsetWidth){
+//         warn.scrollLeft=0;
+//     }
+// }
+// var scroll=setInterval(warnScroll,16);
+// warn.onmouseover = function(){
+//     clearInterval(scroll);
+// }
+// warn.onmouseout = function(){
+//     scroll = setInterval(warnScroll,16);
+// }
