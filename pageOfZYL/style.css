@@ -430,3 +430,6 @@ ul{
     cursor: pointer;
     transition: all 0.5s; 
 }
+body{
+    zoom: 0.8;
+}

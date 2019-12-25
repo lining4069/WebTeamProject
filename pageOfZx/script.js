@@ -246,3 +246,4 @@ onblur = function(){
 onfocus = function(){
 	start();
 }
+document.getElementsByTagName('body')[0].style.zoom=0.9;
