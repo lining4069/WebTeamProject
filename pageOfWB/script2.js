@@ -140,6 +140,6 @@ function numberChange() {
 	}
 }
 
-
+document.getElementsByTagName('body')[0].style.zoom=0.8;
 
 //实现动态的发表

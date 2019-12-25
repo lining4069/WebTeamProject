@@ -19,7 +19,7 @@ function password2(){
 	p.innerHTML=null;
 }
 //
-var arr=["image/zEhUN.jpg","image/Zin4c.jpg","image/ZITGj.jpg","image/zJ6iV.jpg","image/ZKc9S.jpg","image/zKDXU.jpg"];
+var arr=["./images/zEhUN.jpg","./images/Zin4c.jpg","./images/ZITGj.jpg","./images/zJ6iV.jpg","./images/ZKc9S.jpg","./images/zKDXU.jpg"];
 var lu;
 function gcode(){
 	var a=parseInt(Math.random(0,1)*6);
@@ -48,3 +48,4 @@ function join(){
 		alert("验证码错误");
 	}
 }
+document.getElementsByTagName('body')[0].style.zoom=0.8;
